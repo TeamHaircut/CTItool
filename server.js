@@ -4,7 +4,7 @@ const http = require("http");
 const server = http.createServer(app);
 
 app.get('/', (req, res) => {
-  res.send('<div>text</div>')
+  res.sendFile(__dirname +'/index.html')
 })
 
 server.listen(8081, () => {
