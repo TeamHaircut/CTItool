@@ -1,1 +1,1 @@
-document.getElementById("demo").innerHTML = "changed.";
+document.getElementById("item0").innerHTML = "external item0";
