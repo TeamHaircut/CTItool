@@ -1,1 +1,2 @@
 SERV-0001, added index.html
+INDX-0000, added external JS
