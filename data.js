@@ -1,9 +1,19 @@
   const data = ` {
-    "primary_target": "company xyz",
+    "primary_target": {
+      "t0": {
+        "node": "company xyz"
+      }
+    },
     "critical_systems": {
-      "csv0": "system 0",
-      "csv1": "system 1",
-      "csv2": "system 2"
+      "csv0": {
+        "node": "system 0"
+      },
+      "csv1": {
+        "node": "system 1"
+      },
+      "csv2": {
+        "node": "system 2"
+      }
     },
     "activity_groups": {
       "agv0": {
@@ -27,8 +37,12 @@
       }
     },
     "adversaries": {
-      "adv0": "adversary 0",
-      "adv1": "adversary 1"
+      "adv0": {
+        "node": "adversary 0"
+      },
+      "adv1": {
+        "node": "adversary 1"
+      }
     },
     "ttps": {
       "ttp0": {

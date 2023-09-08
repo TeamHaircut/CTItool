@@ -1,3 +1,5 @@
 SERV-0001, added index.html
 INDX-0000, added external JS
 INDX-0001, doc updates
+9/7
+INDX-0002, update indexJS CS output
